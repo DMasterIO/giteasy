@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "executing git add . command"
-git add .
+git add -A
 echo "excecuting git commit with $1"
 git commit -m "$1"
 
